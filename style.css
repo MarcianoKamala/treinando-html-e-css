@@ -1,0 +1,79 @@
+
+@charset "UTF-8";
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+html, body {
+    background-color: darkgray;
+    min-height: 100vh;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+header p {
+    padding-bottom: 50px;
+}
+header a, footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+header a:hover, footer a:hover{
+    text-decoration: underline;
+}
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 3.5vh;
+  
+}
+section > p {
+ padding-bottom: 2em;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+section.imagem{
+    background-color: rgb(197, 199, 196);
+    color:white;
+    box-shadow: inset 6px 6px 13px black;
+    background-size: cover;
+    background-attachment: fixed;
+}
+section.imagem >p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgb(29, 31, 31);
+    text-shadow: 1px 1px 0px black;
+}
+
+section#img01{
+    background-image: url('./imagens/china\ 2.jpg');
+    background-position: right center;
+}
+section#img02{
+    background-image: url('./imagens/001.jpeg');
+}
+footer {
+    background-color: black;
+    color: white;
+    padding: 100px;
+    box-shadow: 1px 1px 5px rgb(72, 233, 9);
+}
+p.centro{
+    text-align: right;
+}
